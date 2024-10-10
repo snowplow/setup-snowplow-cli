@@ -1,0 +1,10 @@
+name: Setup snowplow-cli
+description: Sets up snowplow-cli inside your github workflow
+inputs:
+  version:
+    description: Version of snowplow-cli to install
+    required: false
+    default: latest
+runs:
+  using: node20
+  main: index.cjs

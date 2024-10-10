@@ -1,0 +1,12 @@
+{
+  "name": "setup-snowplow-cli",
+  "version": "1.0.0",
+  "main": "index.cjs",
+  "scripts": {
+    "prettier": "npx -y prettier --write *.{cjs,mjs}"
+  },
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/tool-cache": "^2.0.1"
+  }
+}
