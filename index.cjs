@@ -31,7 +31,7 @@ async function setup() {
 
   const pathToCli = fs.mkdtempSync(path.join(os.tmpdir(), 'tmp'))
 
-  const url = `https://github.com/snowplow-product/snowplow-cli/releases/${version}/download/snowplow-cli_${platform}_${arch}${exe}`
+  const url = `https://github.com/snowplow/snowplow-cli/releases/${version}/download/snowplow-cli_${platform}_${arch}${exe}`
 
   core.debug(`version: ${version}, release path: ${url}`)
 
